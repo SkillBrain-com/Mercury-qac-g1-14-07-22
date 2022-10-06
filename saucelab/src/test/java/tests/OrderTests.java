@@ -30,7 +30,7 @@ public class OrderTests extends BaseTest{
         //iau price tag-ul primului produs
         String firstItemPrice = firstItem.findElement(By.cssSelector(".inventory_item_price")).getText();
 
-        //identific butonul de add to cart
+        //identific butonul de add to cart de pe primul item
         WebElement firstItemButton = firstItem.findElement(By.cssSelector(".btn_inventory"));
 
         //assert before click
