@@ -12,7 +12,6 @@ import static org.testng.Assert.assertTrue;
 
 public class LoginTests extends BaseTest{
 
-
     @Test(description = "Verify login scenari with different users", dataProvider = "loginUsers", groups = "without_login")
     public void testLoginScenarios(String username, String password, boolean shouldLogin, boolean shouldWait){
 
