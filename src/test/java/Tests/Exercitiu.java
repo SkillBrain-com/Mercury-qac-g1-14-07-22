@@ -14,7 +14,8 @@ public class Exercitiu {
         driver = WebDriverManager.getChromDriverByManager();
         driver.get("https://demoqa.com/browser-windows");
         driver.quit();
-
+//test
+         
 
 
     }
