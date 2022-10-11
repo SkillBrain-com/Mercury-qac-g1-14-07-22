@@ -1,0 +1,6 @@
+JavaErrors.class
+MyCustomException.class
+com\first\pachet\SeleniumAnnotations.class
+seleniumTests.class
+WebDriverManager.class
+MainSelenium.class

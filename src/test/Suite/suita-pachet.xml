@@ -1,0 +1,13 @@
+<suite name="Suita pachet" verbose="1" >
+    <test name="Primul meu test din TestNG .xml file"   >
+        <packages>
+            <package name="com.first.pachet.*" />
+        </packages>
+    </test>
+
+    <test name="Al doilea  test din TestNG .xml file"   >
+        <packages>
+            <package name="" />
+        </packages>
+    </test>
+</suite>
